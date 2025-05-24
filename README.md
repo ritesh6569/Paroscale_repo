@@ -1,7 +1,7 @@
 # LRU
 
 ## Data Structures:
-Node: Doubly-linked list node (file path, timestamp, stat metadata, prev/next pointers).
+Doubly-linked list node (file path, timestamp, stat metadata, prev/next pointers).
 Hashst: Hash table entry (node pointer, next for collision chaining).
 LRUCache: Manages cache (capacity, timeout, node count, head/tail pointers, hash table).
 Libraries: stdio.h, stdlib.h, string.h, time.h, sys/stat.h, unistd.h.
